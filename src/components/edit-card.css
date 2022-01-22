@@ -1,0 +1,41 @@
+
+textarea {
+    resize: vertical; 
+    max-height: 100px;
+}
+
+.divFloat {
+    max-width: 300px;
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px #c5c5c5;
+    margin-right: 30px;
+    float: left;
+    left:0;
+    border-radius: 10px;
+    background-color: #FFFF;
+}   
+
+label {
+    font-weight: bold;
+}
+
+.btClose {
+    margin: 0 auto;
+    background-color: transparent;
+    font-weight: bold;
+    color: red;
+    border: none;
+    width: auto; 
+    float: right;
+    clear: both;
+    cursor: pointer; 
+}
+.submit {
+    color: #FFF;
+    padding: 2px 4px;
+    width: 150px;
+    display: block;    
+    cursor: pointer;
+}
